@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="alien" class="com.telusko.SpringDemo.Alien">
+<property name="age" value="10"></property>
+<property name="laptop" ref="laptop"></property>
+</bean>
+
+<bean id="laptop" class="com.telusko.SpringDemo.Laptop">
+
+</bean>
+
+
+</beans>
