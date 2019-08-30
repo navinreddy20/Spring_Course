@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="alien" class="com.telusko.SpringDemo.Alien" autowire="byType">
+<property name="age" value="10"></property>
+
+</bean>
+
+ <bean id="com" class="com.telusko.SpringDemo.Laptop">
+
+</bean> 
+
+<bean id="desktop" class="com.telusko.SpringDemo.Desktop">
+
+</bean>
+
+</beans>
